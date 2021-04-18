@@ -62,8 +62,6 @@ def save():
             website_entry.delete(0, END)
             password_entry.delete(0, END)
 
-# ---------------------------- UI SETUP ------------------------------- #
-
 # ---------------------------- SEARCH OPTION ------------------------------- #
 
 
@@ -81,7 +79,8 @@ def find_password():
         else:
             messagebox.showinfo(title="ERROR", message="No details for the website")
 
-
+                                
+# ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
 window.title("Password Manager")
 window.config(padx=20, pady=20)
